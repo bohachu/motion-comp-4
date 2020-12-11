@@ -1,9 +1,10 @@
-import { load_js, load_js_async, load_css } from "./cameo-load.js";
+import { load_js_async } from "https://cdn.jsdelivr.net/gh/bohachu/motion-comp-4/cameo-load.js";
+
 class CameoFour extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <h1>Web Component Four</h1>
-    改一個動圖四號的地方 444 js 修改圖片 應該也可以
+    444 from cdn 也可以下載
     <div id="chartdiv"></div>
     
     <style>
