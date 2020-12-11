@@ -1,4 +1,4 @@
-import { load_js_async } from "https://cdn.jsdelivr.net/gh/bohachu/motion-comp-4/cameo-load.js";
+import { load_js_async } from "./cameo-load.js";
 
 class CameoFour extends HTMLElement {
   connectedCallback() {
