@@ -4,7 +4,7 @@ class CameoFour extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <h1>Web Component Four</h1>
-    444 from cdn 也可以下載
+    sync 444 yeah
     <div id="chartdiv"></div>
     
     <style>
